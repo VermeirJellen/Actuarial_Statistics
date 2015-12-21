@@ -1,0 +1,7 @@
+In this subproject the claim arrival process of the famous 'Danish fire insurance' set in the period January 1st, 1980 until December 31st 1990 is studied. The main goal is to investigate the suitability of both homogeneous and in-homogeneous Poisson processes to model the claim arrival process.
+
+The demo "Claim Arrivals - Poisson.R" starts with a visualization of the dataset and an investigation of the descriptive statistics of the arrival and inter-arrival times for the whole period. It is initially assumed that the claim arrival process follows a homogeneous Poisson process and the Poisson intensity parameter is calibrated to the data.
+Next, the corresponding statistics are investigated for each year separately and it is demonstrated that the homogeneity assumption does not capture the data well: The intensity parameter of the Poisson process varies over time and the non-homogeneous intensity function contains non-stationary properties. 
+However, in this context it is also demonstrated that a homogeneous Poisson process might be suitable to model claim arrivals for shorter time-intervals. The demo concludes with an illustration on how to make an 'operational time change' from a non-homogeneous to a homogeneous model. This is accomplished by using the continuous mean value function of the corresponding non-homogeneous process to transform the inter arrival times.
+
+View the accompanied paper "Claim Arrivals - Poisson.pdf" for additional details and background information.

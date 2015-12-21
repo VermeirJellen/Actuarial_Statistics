@@ -1,0 +1,6 @@
+In this subproject, claim frequency data and its dependency on a number of external covariates is investigated. The external covariates act as risk classifiers and the main goal is to build a parsimonious regression model for the claim frequencies that incorporates the dependency on these classifiers.
+
+In "Claim Frequency Modelling - GLM.R", the properties of the datasample and the dependent covariates under consideration are first visualized. A descriptive analysis of the data is provided and potential interactions between two of the covariates are subsequently investigated. 
+Next, GLM models are calibrated to the claim frequency data and drop-in deviance analysis and Wald tests are performed to evaluate significance of the model parameters. Finally, a parsimonious model that captures the claim frequency data and its dependencies on the external covariates is obtained.
+
+View "Claim Frequency Modelling - GLM.pdf" for additional information. NOTE: paper is a draft and should be updated for readibility purposes.
